@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="q2style.css">
+  <link rel="stylesheet" href="q2sources.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:wght@500&family=Rowdies:wght@300&family=Ubuntu&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+  <title>Sources</title>
+
+
+
+
+</head>
+<body>
+  <div class="header-nav">
+    <header>
+      <a class="logo" href="q2main.html">E.D.U.</a>
+        <nav> 
+          <ul class="nav_links">
+            <li><a href="q2main.html">Main Page</a></li>
+            <li><a href="q2about.html">About</a></li> 
+          </ul>
+        </nav>
+        <a class="cta" href="..//index.html"><button>1st Quarter</button></a>
+        <a class="cta" href="../3rdquarter/q3main.html"><button>3rd Quarter</button></a>
+    </header>
+</div>
+<H1>Brainstorming Materials</H1>
+
+<div class="full-img" id="fullImgBox">
+  <img src="images/img1.jpg" id="fullImg">
+  <span onclick="closeFullImg()"></span>
+</div>
+<div class="img-gallery">
+  <img src="images2/01.jpg" onclick="closeFullImg(this.src)">
+  <img src="images2/02.jpg" onclick="closeFullImg(this.src)">
+  <img src="images2/03.jpg" onclick="closeFullImg(this.src)">
+  <img src="images2/04.jpg" onclick="closeFullImg(this.src)">
+  <img src="images2/05.jpg" onclick="closeFullImg(this.src)">
+  <img src="images2/06.jpg" onclick="closeFullImg(this.src)">
+  <img src="images2/07.jpg" onclick="closeFullImg(this.src)">
+  <img src="images2/08.jpg" onclick="closeFullImg(this.src)">
+  <img src="images2/09.jpg" onclick="closeFullImg(this.src)">
+  <img src="images2/10.jpg" onclick="closeFullImg(this.src)">
+  <img src="images2/11.jpg" onclick="closeFullImg(this.src)">
+  <img src="images2/12.jpg" onclick="closeFullImg(this.src)">
+
+
+</div>
+
+<script>
+
+
+var fullImgBox = document.getElementById("fullImgBox");
+var fullImg = document.getElementById("fullImg");
+
+
+function openFullImg(pic){
+fullImgBox.style.display = "flex";
+fullImg.src = pic;
+}
+
+
+function closeFullImg(){
+fullImgBox.style.display = "none";
+}
+</script>
+
+<footer class="footer-distributed" id="about-footer">
+  <div class="footer-left">
+   <div>
+       <i class="footer-marker"></i>
+       <p><a class="map-link" target="_blank" href="https://www.google.com/maps/place/APEC+Schools+-+Ortigas+Extension/@14.5882951,121.1071992,17.98z/data=!4m5!3m4!1s0x3397c7895cfc0851:0x32b881b76adc4e6d!8m2!3d14.5880131!4d121.1083258">H4Q5+684, Brgy Sto. Domingo, Ortigas Ave Ext,<br>  Cainta, Rizal</a></p>
+   </div>
+ 
+   <div>
+     <i class="footer-phone"></i>
+       <p>(service unavailable)</p>
+   </div>
+  </div>
+ 
+   <div class="footer-right">
+ 
+     <p class="footer-company-about">
+       <span class="aboutweb">About the Website</span><br>
+       This website was made by APEC Grade 9 Students <br> of Group 3 Lifelabs 2nd Grading IPBA<br>
+       School Year 2023-2024
+     </p>
+ </div>
+</body>
+</html>

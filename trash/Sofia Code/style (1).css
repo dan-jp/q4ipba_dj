@@ -1,0 +1,50 @@
+.sofiacontent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 12px;
+    justify-content: space-between
+}
+
+.sofiaytbutton{
+    border:1px;
+    border-color: black;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(70, 68, 68);
+    font-size: 25px;
+    display: inline-block;
+    background-color: rgb(194, 129, 76);
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 289px;
+    margin-top: 30px;
+}
+
+.sofiaytbutton:hover{
+    opacity: 0.2;
+    background-color: white;
+    border-color:burlywood;
+    border: 9px;
+    color: rgb(84, 59, 36);
+}
+
+.sofiatitle{
+    text-align: center;
+    font-size: 60px;
+    font-family:Garamond;
+    
+   
+
+}
+
+.sofiatext{
+    padding: 20px;
+    font-family:mulish;
+    text-align: center;
+
+}
+
+.sofiamaganda{
+    background-color: rgb(219, 193, 176);
+}

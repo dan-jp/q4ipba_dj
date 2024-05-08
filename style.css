@@ -1,0 +1,356 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: lilita-one;
+}
+
+body{
+  margin: 0;
+}
+
+/*Header*/
+.header-nav{
+ position: sticky;
+ top: 0;
+}
+
+li, a, button{
+  font-family: lilita-one;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  border: none;
+  border-radius: none;
+  font-weight: bold;
+}
+
+header{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  background-color: gainsboro;
+  flex-direction: row;
+  padding: 10px 10%;
+  margin: 0%;
+}
+
+.logo{
+  cursor: pointer;
+  margin-right: auto;
+  font-family:lilita-one;
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+  color: goldenrod;
+}
+
+button{
+  margin-left: 40px;
+  padding: 9px 25px;
+  background-color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: aliceblue;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+}
+
+/*Lana*/
+
+/*Sofia*/
+.p1{
+  margin-top: 5px;
+  padding-bottom: 50px;
+  text-align: center;
+  padding: 30px;
+  line-height: 1.7;
+  font-size: 20px;
+}
+
+.h33{
+  text-align: center;
+  padding-bottom:5px;
+  font-size: 40px;
+
+}
+                                                        /*Daniel*/
+
+.hyperlink_content{
+  font-family:sans-serif;
+  background-color: aliceblue;
+  padding-top: 0.02%;
+  }
+  
+  
+  .content__row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .content__abc{
+    flex-basis: 31%;
+    background-color: lightyellow;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    transition: 0.5s;
+    position:relative;
+  }
+
+  .content__img{
+    width: 275px;
+    margin-top: 30px;
+  }
+  
+  .content_title{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 100px;
+    font-weight: bold;
+   
+  }
+  
+  h3{
+    text-align: center;
+    margin: 10px 0; 
+    font-weight: 600;
+  }
+  
+  .content__abc:hover{
+    box-shadow: 0px 0px 10px 0px gray;
+    opacity: 0.7;
+  }
+
+                                                      /*Daniel*/
+
+  .footer-distributed {
+    background-color: #4e5454;
+    box-shadow: 0 1px 1px 0 orange;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    margin-top: 200px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    line-height: 40px;
+    justify-content: space-between;
+    text-align: right;
+    color: aliceblue;
+    
+
+  }
+  
+  footer {
+    position: static;
+  }
+  footer {
+   
+    bottom: 0;
+  }
+  
+  
+  footer {
+    display: block;
+  }
+  
+  a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  
+  }
+  
+  .map-link {
+    color: aliceblue;
+  }
+
+  .aboutweb{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+                                                      /*Vincent*/
+  .header {
+    text-align: center;
+    padding: 19%;
+    font-size: 22px;
+    background-color: #f1f1f1;
+    margin-top: 24px;
+}
+
+
+
+.Flexbox-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightyellow;
+}
+
+.Flexbox-item1 {
+   width: 90%;
+   padding: 25px; 
+   margin: 25px;
+   text-align: center;
+   line-height: 40px;
+   background-color: #f1f1f1;
+   border: 1px solid black;
+}
+
+.Flexbox-item2 {
+    width: 90%;
+    padding: 25px; 
+    margin: 25px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+ }
+
+ .Flexbox-item3 {
+    width: 90%;
+    padding: 25px; 
+    margin: 25px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+ }
+
+.vincentimg {
+    float: left;
+    margin-top: 29%;
+    width: 40%;
+    height: 50%;
+}
+
+                                                /*lana*/
+.introduction{
+  background-image: url(images/hero.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-position:center; 
+  background-size: cover
+}
+
+.intro-title{
+  text-align: left;
+  padding-top: 90px;
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #f1f1f1;
+  padding-left: 80px;
+}
+.intro-paragraph{
+  text-align: left;
+  font-size: 35px;
+  padding-top: 20px;
+  color: #f1f1f1;
+  padding-left: 220px;
+}
+
+/*Promotional Materials*/
+.promotion{
+  background-color: whitesmoke;
+  margin-top: 50px;
+}
+.promotion__title{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.promo_title{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.promotion__img{
+  max-width: 100%;
+  width: 1000px;
+  justify-content: center;
+  display: flex;
+  padding-left: 250px;
+  padding-bottom: 100px;
+}
+
+/*kathleen*/
+
+.kathleen__part{
+  margin-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  padding: 30px;
+  line-height: 1.7;
+}
+
+.kath_title{
+ text-align: center;
+ padding-bottom:40px;
+ font-size: 50px;
+}
+
+.kath{
+  padding-bottom: 5px;
+  padding-top: 40px;
+}
+
+/*myka*/
+.mykapart{
+  background-color: rgb(228, 225, 209);
+  width: fit-content;
+  border-color: rgb(14, 6, 6);
+  padding:40px;
+  font-size: larger;
+  font-weight: bold ;
+  padding-top: 30px;
+  margin-top: 40px;
+  }
+  
+  
+  .mykatitle{
+   text-align: center;  
+   padding-bottom: 50px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: bolder;
+  }
+  
+  
+  .mykacontent{
+      padding-bottom: 20px;
+      font-family: cursive;
+  }  
+  

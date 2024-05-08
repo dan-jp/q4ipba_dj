@@ -1,0 +1,270 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: lilita-one;
+}
+
+body{
+  margin: 0;
+}
+
+/*Header*/
+.header-nav{
+ position: sticky;
+ top: 0;
+}
+
+li, a, button{
+  font-family: lilita-one;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  border: none;
+  border-radius: none;
+  font-weight: bold;
+}
+
+header{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  background-color: gainsboro;
+  flex-direction: row;
+  padding: 10px 10%;
+  margin: 0%;
+}
+
+.logo{
+  cursor: pointer;
+  margin-right: auto;
+  font-family:lilita-one;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+  color: goldenrod;
+}
+
+button{
+  margin-left: 40px;
+  padding: 9px 25px;
+  background-color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: aliceblue;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+}
+
+
+.sofiacontent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1px;
+  justify-content: space-between
+}
+
+.sofiaytbutton{
+  border:1px;
+  border-color: black;
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(70, 68, 68);
+  font-size: 25px;
+  display: inline-block;
+  background-color: rgb(194, 129, 76);
+  border-radius: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 289px;
+  margin-top: 30px;
+}
+
+.sofiaytbutton:hover{
+  opacity: 0.2;
+  background-color: white;
+  border-color:burlywood;
+  border: 9px;
+  color: rgb(84, 59, 36);
+}
+
+.sofiatitle{
+  text-align: center;
+  font-size: 60px;
+  font-family:Garamond;
+}
+
+.sofiatext{
+  padding: 20px;
+  font-family:mulish;
+  text-align: center;
+}
+
+.sofiamaganda{
+  background-color: rgb(219, 193, 176);
+}
+
+.mykatitle{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+  
+}
+
+
+.myka1{
+  text-align: left;
+  padding-left: 100px;
+  font-size:25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+
+.myka2{
+  text-align: left;
+  padding-left: 100px;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: left;
+  align-items: center; 
+}
+
+
+.myka3{
+  text-align: left;
+  padding-left: 100px;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.mykapic{
+  padding-left: 100px;
+  width: 400px;
+}
+
+.kathtitle{  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  line-height: 1.5;
+  color: black;
+  font-family: lilita-one;
+  font-weight: bold;
+}
+
+.kathcontent{
+  text-align: center;
+font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+.kathlayout{
+  background-color: rgb(219, 193, 176);
+  padding-top: 50px;
+  padding-bottom: 60px;
+  
+}
+
+
+.footer-distributed {
+  background-color: #4e5454;
+  box-shadow: 0 1px 1px 0 orange;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 200px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  line-height: 40px;
+  justify-content: space-between;
+  text-align: right;
+  color: aliceblue;
+  
+
+}
+
+footer {
+  position: static;
+}
+footer {
+ bottom: 0;
+}
+
+
+footer {
+  display: block;
+}
+
+a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+
+}
+
+.map-link {
+  color: aliceblue;
+}
+
+.aboutweb{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+section{
+  display: grid;
+  align-items: center;
+  align-items: center;
+}
+
+.layouts{
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show{
+  opacity: 1;
+}
+
+.videointro{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.videotitle{
+font-family: lolita-one;
+text-align: center;
+padding-top: 30px;
+font-size: 40px;
+}
